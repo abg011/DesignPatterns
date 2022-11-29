@@ -1,5 +1,5 @@
 public class FrozenClam extends Clam {
     public FrozenClam() {
-        this.name = "Frozen Clamp";
+        this.name = "Frozen Clam";
     }
 }

@@ -6,4 +6,6 @@ public abstract class PizzaIngredientFactory {
     public abstract Pepperoni createPepperoni();
     public abstract Cheese createCheese();
     public abstract Clam createClam();
+
+    public abstract Sauce createSauce();
 }

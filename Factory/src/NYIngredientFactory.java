@@ -30,4 +30,9 @@ public class NYIngredientFactory extends PizzaIngredientFactory {
     public Clam createClam() {
         return new FrozenClam();
     }
+
+    @Override
+    public Sauce createSauce() {
+        return new RedSpicySauce();
+    }
 }

@@ -7,10 +7,12 @@ public class NYPizzaStore extends Pizzastore {
         switch (type) {
             case "cheese":
                 pizza = new NYStyleCheesePizza(pizzaIngredientFactory);
+                pizza.setName("New York Style Extra Cheese Pizza");
                 break;
 
             case "pepperoni":
                 pizza = new NYStylePepperoni(pizzaIngredientFactory);
+                pizza.setName("New York Spicy Pepperoni Pizza");
                 break;
 
             default:

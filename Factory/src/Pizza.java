@@ -1,8 +1,10 @@
+import java.util.List;
+
 public abstract class Pizza {
     String name;
     Dough dough;
     Sauce sauce;
-    Veggy[] veggies;
+    List<Veggy> veggies;
     Cheese cheese;
     Pepperoni pepperoni;
     Clam clam;
@@ -17,6 +19,9 @@ public abstract class Pizza {
         System.out.println("Boxing up the pizza");
     }
 
+    public void bake() {
+        System.out.println("Baking pizza at 350 F.");
+    }
     public String getName() {
         return name;
     }
@@ -26,6 +31,6 @@ public abstract class Pizza {
     }
 
     public String toString() {
-        return null;
+        return "Ready to be served: " + this.name;
     }
 }
